@@ -11,7 +11,7 @@ This also contains DevOps methods like using Ansible, Terraform, Jenkins and etc
 - part02- getting ready for production.
 - part03- Lets LoadBalance!
 - part04- Where is my CA Certificate?
-- part05- Nginx Ingress Controller.
+- part05- How to reach my application?
 - part06- Mr Jenkins, we need you.
 - part07- We need monitoring
 - part08- Oh, we are out of resource!
