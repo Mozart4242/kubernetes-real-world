@@ -17,7 +17,7 @@ The cluster is looks like this:
 
 --------
 ## To Do
-- part01- Installing the cluster.
+- part01- Installing the cluster. ✅
 - part02- getting ready for production.
 - part03- Lets LoadBalance!
 - part04- Where is my CA Certificate?
