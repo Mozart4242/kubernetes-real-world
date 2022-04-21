@@ -76,3 +76,13 @@ EOF
 
 $ kubectl apply -f configmap.yml
 ```
+### Step5 - Test
+Lets create a nginx deployment and expose it as LoadBalancer
+
+```
+$ kubectl create deploy nginx --image nginx
+$ kubectl expose deploy nginx --port 80 --type LoadBalancer
+
+$ kubectl get all
+```
+Now open your web browser http://10.132.132.105.
