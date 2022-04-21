@@ -47,6 +47,10 @@ So we need to download this file from one of our Control-Plane (master) nodes.
 ```
 $ scp kadmin@10.132.132.100:/etc/kubernetes/admin.conf ~/.kube/config
 ```
+<img src='vlcsnap-2022-04-21-14h10m24s271.png'>
+By default we are going to connect to one of the master nodes, and the worker nodes will have nginx proxy as a load balancer so they can connect to both master nodes.
+
+NOTE: if the first master node goes dfown we need to manually configure the kube file to connect to the other master node.
 ## Test our cluster
 
 ```
