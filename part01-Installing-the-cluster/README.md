@@ -40,7 +40,7 @@ $ sudo CONFIG_FILE=inventory/mycluster/hosts.yaml python3 contrib/inventory_buil
 
 $ ansible-playbook -i inventory/mycluster/hosts.yaml  --become --become-user=root cluster.yml
 ```
-## Connect using your work station
+## Connect using your workstation
 We need kubeconfig file in our ~/.kube/ directory to connect to our cluster.
 So we need to download this file from one of our Control-Plane (master) nodes.
 
