@@ -52,3 +52,4 @@ $ scp kadmin@10.132.132.100:/etc/kubernetes/admin.conf ~/.kube/config
 ```
 $ kubectl get nodes
 ```
+As you can see, we are having a fully redundant and high available cluster with two master and two worker nodes.
