@@ -11,7 +11,10 @@ This also contains DevOps methods like using Ansible, Terraform, Jenkins and etc
 The cluster is looks like this:
 - Two master nodes
 - Two worker nodes
-[https://github.com/Mozart4242/kubernetes-real-world/blob/main/cluster.png]
+<p align="center">
+ <img alt="Ansible Logo" src="cluster.png">
+</p>
+
 --------
 ## To Do
 - part01- Installing the cluster.
