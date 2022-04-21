@@ -8,7 +8,7 @@ This is your Kubernets dream that WILL come true, a Real-World Kubernetes cluste
 
 📌 I am going to explain all the details from 0 to 100.
 
-📌 This also contains DevOps methods like using Ansible, Terraform, Jenkins and etc.
+📌 This also contains DevOps methods like using **Ansible**, **Terraform**, **Jenkins**.
 
 
 ## Overview
