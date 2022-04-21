@@ -1,5 +1,5 @@
 # Getting Ready For Production
-In this section we are going to learn about kubernetes in production.
+**In this section we are going to learn about kubernetes in production.**
 
 🔖 Wen we are deploying a local kubernetes cluster in production environment we should consider some factors like:
 - Amount of CPU, RAM nad Disk of the nodes.
