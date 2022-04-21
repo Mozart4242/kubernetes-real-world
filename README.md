@@ -1,11 +1,14 @@
 # kubernetes-real-world
-This is your kubernetes dream that WILL come true, a Real-World Kubernetes cluster with needed production enterprise services.
-**in here we learn as we practice**
+This is your Kubernets dream that WILL come true, a Real-World Kubernetes cluster with needed production enterprise services.
+
+💥**in here we learn as we practice**💥
 
 ## About This Repo
-We are going to go through all the necessary components of kubernetes that is needed to deploy a cluster in your organization.
-I am going to explain all the details from 0 to 100.
-This also contains DevOps methods like using Ansible, Terraform, Jenkins and etc.
+📌 We are going to go through all the necessary components of kubernetes that is needed to deploy a cluster in your organization.
+
+📌 I am going to explain all the details from 0 to 100.
+
+📌 This also contains DevOps methods like using Ansible, Terraform, Jenkins and etc.
 
 
 ## Overview
