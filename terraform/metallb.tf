@@ -630,3 +630,6 @@ resource "kubernetes_pod_security_policy" "speaker" {
     ]
   }
 }
+resource "kubectl_manifest" "metallb_configmap" {
+  yaml_body = file("./metallb/configmap.yml")
+}
