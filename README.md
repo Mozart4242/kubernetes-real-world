@@ -6,6 +6,13 @@ We are going to go through all the necessary components of kubernetes that is ne
 I am going to explain all the details from 0 to 100.
 This also contains DevOps methods like using Ansible, Terraform, Jenkins and etc.
 
+
+## Overview
+The cluster is looks like this:
+- Two master nodes
+- Two worker nodes
+[https://github.com/Mozart4242/kubernetes-real-world/blob/main/cluster.png]
+--------
 ## To Do
 - part01- Installing the cluster.
 - part02- getting ready for production.
