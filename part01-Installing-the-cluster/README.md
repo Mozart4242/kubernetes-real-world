@@ -2,12 +2,12 @@
 
 we are using VMware ESXI to provision our virtual machines.
 
-|Role|RAM|CPU|DISK|
-|----|---|---|----|
-|Kmaster1|8GB|8|60GB|
-|Kmaster2|8GB|8|60GB|
-|Kworker1|8GB|8|60GB|
-|Kworker2|8GB|8|60GB|
+|Role|RAM|CPU|DISK|Address|
+|----|---|---|----|-------|
+|Kmaster1|8GB|8|60GB|10.132.132.100|
+|Kmaster2|8GB|8|60GB|10.132.132.101|
+|Kworker1|8GB|8|60GB|10.132.132.102|
+|Kworker2|8GB|8|60GB|10.132.132.103|
 
 ## How we do it?
 I'm going to use a tool called [Kubespray](https://github.com/kubernetes-sigs/kubespray). Kubespray uses the power of [Ansible](https://www.ansible.com/) to provision your cluster.
