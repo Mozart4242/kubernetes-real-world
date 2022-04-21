@@ -16,4 +16,4 @@
 
 ➡️ [Azure Load Balancer](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview)
 
-➡️ [MetalLB](https://github.com/metallb/metallb)
+➡️ [MetalLB](https://metallb.universe.tf/installation/)
