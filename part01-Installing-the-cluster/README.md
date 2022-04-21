@@ -1,6 +1,6 @@
 # Installing The Cluster
 
-we are using VMware ESXI to provision our virtual machines.
+➕ we are using VMware ESXI to provision our virtual machines.
 
 |Role|RAM|CPU|DISK|Address|
 |----|---|---|----|-------|
@@ -10,8 +10,8 @@ we are using VMware ESXI to provision our virtual machines.
 |Kworker2|8GB|8|60GB|10.132.132.103|
 
 ## How we do it?
-I'm going to use a tool called [Kubespray](https://github.com/kubernetes-sigs/kubespray). Kubespray uses the power of [Ansible](https://www.ansible.com/) to provision your cluster.
-Its easy and powerful.
+➕ I'm going to use a tool called [Kubespray](https://github.com/kubernetes-sigs/kubespray). Kubespray uses the power of [Ansible](https://www.ansible.com/) to provision your cluster.
+➕ Its easy and powerful.
 
 ## Deploying The Cluster
 1- Download Kubespray
@@ -41,8 +41,8 @@ $ sudo CONFIG_FILE=inventory/mycluster/hosts.yaml python3 contrib/inventory_buil
 $ ansible-playbook -i inventory/mycluster/hosts.yaml  --become --become-user=root cluster.yml
 ```
 ## Connect using your workstation
-We need kubeconfig file in our ~/.kube/ directory to connect to our cluster.
-So we need to download this file from one of our Control-Plane (master) nodes.
+➕ We need kubeconfig file in our ~/.kube/ directory to connect to our cluster.
+➕ So we need to download this file from one of our Control-Plane (master) nodes.
 
 ```
 $ scp kadmin@10.132.132.100:/etc/kubernetes/admin.conf ~/.kube/config
@@ -50,7 +50,7 @@ $ scp kadmin@10.132.132.100:/etc/kubernetes/admin.conf ~/.kube/config
 $ sed -i 's/127.0.0.1/10.132.132.100/g' ~/.kube/config
 ```
 <img src='vlcsnap-2022-04-21-14h10m24s271.png'>
-By default we are going to connect to one of the master nodes, and the worker nodes will have nginx proxy as a load balancer so they can connect to both master nodes.
+➕ By default we are going to connect to one of the master nodes, and the worker nodes will have nginx proxy as a load balancer so they can connect to both master nodes.
 
 NOTE: if the first master node goes dfown we need to manually configure the kube file to connect to the other master node.
 ## Test our cluster
@@ -58,4 +58,4 @@ NOTE: if the first master node goes dfown we need to manually configure the kube
 ```
 $ kubectl get nodes
 ```
-As you can see, we are having a fully redundant and high available cluster with two master and two worker nodes.
+➕ As you can see, we are having a fully redundant and high available cluster with two master and two worker nodes.
