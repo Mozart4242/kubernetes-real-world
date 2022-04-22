@@ -31,3 +31,7 @@ The cluster is looks like this:
 - part08- Oh, we are out of resource!
 - part09- Im tired of kubectl.
 - part10- Are we done?
+
+## Authors
+
+- [@mozart4242](https://www.github.com/mozart4242)
