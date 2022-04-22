@@ -8,7 +8,7 @@
 ## MetalLB as a LoadBalancer
 ➕ This is the solution that im going to use when im deploying kubernetes in local environment.
 
-**NOTE**: When you are using a public cloud like AWS, GCP or Azure you definately dont need this solution.
+**NOTE**: When you are using a public cloud like AWS, GCP or Azure you definitely dont need this solution.
 
 ➡️ [AWS ELB](https://aws.amazon.com/elasticloadbalancing/)
 
