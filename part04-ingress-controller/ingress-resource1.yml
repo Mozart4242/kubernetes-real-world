@@ -1,0 +1,28 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  name: ingress-resource1
+spec:
+  rules:
+  - host: nginx.mozart4242.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: nginx-deploy-main
+            port: 
+              number: 80
+  - host: blue.nginx.mozart4242.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: nginx-deploy-blue
+            port:
+              number: 80
