@@ -1,4 +1,4 @@
-# Optional configuration
+############## metallb ##############
 variable "metallb_version" {
   default     = "0.10.2"
   type        = string
@@ -14,3 +14,5 @@ variable "controller_node_selector" {
   default = {}
   type    = map(any)
 }
+
+############# ingress-nginx ###############

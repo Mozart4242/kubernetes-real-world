@@ -8,6 +8,8 @@ terraform {
       source  = "gavinbunney/kubectl"
       version = ">= 1.7.0"
     }
+    helm = ">= 2.1.0"
   }
 }
+
 
