@@ -24,13 +24,12 @@ The cluster is looks like this:
 - part01- Installing the cluster. ✅
 - part02- getting ready for production. ✅
 - part03- Lets LoadBalance! ✅
-- part04- Where is my CA Certificate?
-- part05- How to reach my application?
-- part06- Mr Jenkins, we need you.
-- part07- We need monitoring
-- part08- Oh, we are out of resource!
-- part09- Im tired of kubectl.
-- part10- Are we done?
+- part04- How to reach my application?
+- part05- Mr Jenkins, we need you.
+- part06- We need monitoring
+- part07- Oh, we are out of resource!
+- part08- Where is my CA Certificate?
+- part09- Are we done?
 
 ## Authors
 
