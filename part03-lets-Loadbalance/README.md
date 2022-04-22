@@ -25,7 +25,7 @@
 ➕ Im going to use just 5 ip addresses (10.132.132.105-10.132.132.110)
 
 ### Step1 - Prepration
-check the Kube=proxy settings
+check the Kube-proxy settings
 ```
 $ kubectl edit configmap -n kube-system kube-proxy
 ```
@@ -54,7 +54,7 @@ $ kubectl get all -n metallb-system
 ```
 
 ### Step4 - Configuration
-Create a configMap to specify the ip addresses:
+Create a ConfigMap to specify the ip addresses:
 
 ```
 $ mkdir metallb && cd metallb
