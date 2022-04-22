@@ -24,7 +24,7 @@ The cluster is looks like this:
 - part01- Installing the cluster. ✅
 - part02- getting ready for production. ✅
 - part03- How to reach my application - LoadBalance! ✅
-- part04- How to reach my application - Ingress Controller
+- part04- How to reach my application - Ingress Controller ✅
 - part05- Mr Jenkins, we need you.
 - part06- Monitoring
 - part07- Oh, we are out of resource!
