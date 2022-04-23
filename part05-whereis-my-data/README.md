@@ -1,9 +1,9 @@
-# where is my Data?
+# Where Is My Data?
 In kubernetes world the data and storage is not persistent by default, and this means that once a pod dies all dta dies with it.
 
 In order to save our data, we need some where to keep our data, and that is **Persistent Volumes**
 
-## Types of Persistent Volumes
+## Types Of Persistent Volumes
 There are 2 ways that we can provision storage to our cluster.
 - Static
 - Dynamic
