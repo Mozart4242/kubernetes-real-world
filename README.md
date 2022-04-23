@@ -21,15 +21,18 @@ The cluster is looks like this:
 
 --------
 ## To Do
-- part01- Installing the cluster. ✅
-- part02- getting ready for production. ✅
-- part03- How to reach my application - LoadBalance! ✅
-- part04- How to reach my application - Ingress Controller ✅
-- part05- Mr Jenkins, we need you.
-- part06- Monitoring
-- part07- Oh, we are out of resource!
-- part08- Where is my CA Certificate?
-- part09- Are we done?
+- part01 - Installing the cluster. ✅
+- part02 - getting ready for production. ✅
+- part03 - How to reach my application - LoadBalance! ✅
+- part04 - How to reach my application - Ingress Controller ✅
+- part05 - Where is my data (Storage solutions)
+- part05.1 - NFS Dynamic Provisioning
+- part05.2 - Glusterfs
+- part06 - Monitoring
+- part07 - Mr Jenkins, we need you
+- part08 - Where is my CA Certificate
+- part09 - Im tired of kubectl
+- part10 - Lets wrap up
 
 ## Authors
 
