@@ -23,7 +23,7 @@ My nfs server is 10.132.132.104
 $ sudo apt install nfs-server
 
 $ mkdir /opt/nfs/kubedata -p
-$ echo "/opt/nfs/kubedata       *(rw,sync,no_subtree_check,insecure)" >> /etc/exports
+$ echo "/opt/nfs/kubedata	*(rw,sync,no_subtree_check,no_root_squash,no_all_squash,insecure)" >> /etc/exports
 $ sudo exportfs -rav
 ```
 ### Step2: 
