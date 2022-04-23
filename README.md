@@ -26,8 +26,8 @@ The cluster is looks like this:
 - part03 - How to reach my application - LoadBalance! ✅
 - part04 - How to reach my application - Ingress Controller ✅
 - part05 - Where is my data (Storage solutions)
-- part05.1 - NFS Dynamic Provisioning
-- part05.2 - Glusterfs
+  - part05.1 - NFS Dynamic Provisioning
+  - part05.2 - Glusterfs
 - part06 - Monitoring
 - part07 - Mr Jenkins, we need you
 - part08 - Where is my CA Certificate
