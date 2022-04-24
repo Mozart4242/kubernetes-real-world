@@ -10,7 +10,7 @@ There are 2 ways that we can provision storage to our cluster.
 
 NOTE: When we are in local Kubernetes Cluster (No Clouds...) We are doomed to use static provisioning and that means, the administrator must first create the PV and then feed it to the cluster (Pods).
 
-Good News: Fortunately we have two sloutions to do this dynamically.
+😎 Good News: Fortunately we have two sloutions to do this dynamically.
 - NFS Dynamic Provisioning
 - Glusterfs
 
