@@ -1,5 +1,5 @@
 # Kubernetes In Real World
- <img alt="Ansible Logo" src="kuber-real.png">
+ <img alt="kubernetes Logo" src="kuber-real.png">
 
 This is your Kubernets dream that WILL come true, a Real-World Kubernetes cluster with needed production enterprise services.
 
