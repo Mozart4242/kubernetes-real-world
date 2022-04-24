@@ -1,4 +1,6 @@
 # Kubernetes In Real World
+ <img alt="Ansible Logo" src="kuber-real.png">
+
 This is your Kubernets dream that WILL come true, a Real-World Kubernetes cluster with needed production enterprise services.
 
 💥**in here we learn as we practice**💥
@@ -25,8 +27,8 @@ The cluster is looks like this:
 - part02 - getting ready for production. ✅
 - part03 - How to reach my application - LoadBalance! ✅
 - part04 - How to reach my application - Ingress Controller ✅
-- part05 - Where is my data (Storage solutions)
-  - part05.1 - NFS Dynamic Provisioning
+- part05 - Where is my data (Storage solutions) ✅
+  - part05.1 - NFS Dynamic Provisioning ✅
   - part05.2 - Glusterfs
 - part06 - Monitoring
 - part07 - Mr Jenkins, we need you
