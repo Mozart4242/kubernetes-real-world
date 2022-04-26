@@ -30,6 +30,7 @@ if you haven't deployed NFS Dynamic Provisionig yet, apply below coomand:
 ```
 $ kubectl apply -f nfs-rbac.yml -f nfs-deployment.yml -f nfs-class.yml
 ```
+```
 $ helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 $ helm inspect values prometheus-community/prometheus > /tmp/prometheus.values
 ```
