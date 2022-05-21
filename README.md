@@ -31,7 +31,7 @@ The cluster is looks like this:
   - part05.1 - NFS Dynamic Provisioning ✅
   - part05.2 - Glusterfs
 - part06 - Monitoring ✅
-- part07 - Mr Jenkins, we need you
+- part07 - Mr Jenkins, we need you ✅
 - part08 - Where is my CA Certificate
 - part09 - Im tired of kubectl
 - part10 - Lets wrap up
